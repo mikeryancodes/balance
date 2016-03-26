@@ -28,7 +28,7 @@ def balance(s)
   # in differentials and their counts.
 
   # count_to_position takes a hash of the counts of the characters we need to find in our window,
-  # and returns the position within the string where the counts of those character occurred
+  # and returns the last position within the string where the counts of those character occurred
   # in the string up to and including that position.
 
   count_to_position = Hash.new(-1.0 / 0.0)
